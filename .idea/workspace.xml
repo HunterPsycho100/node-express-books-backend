@@ -40,6 +40,13 @@
       <recent name="C:\Users\jjhan\Documents\GitHub\node-express-books-backend\node_modules" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,6 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623285289958</updated>
       <workItem from="1623285291098" duration="1880000" />
+      <workItem from="1623288582282" duration="376000" />
     </task>
     <servers />
   </component>
