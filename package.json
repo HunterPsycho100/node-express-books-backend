@@ -1,6 +1,6 @@
 {
-  "name": "node-express-books-backend",
-  "version": "0.0.0",
+  "name": "express-books-backend",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -12,5 +12,18 @@
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11"
-  }
+  },
+  "description": "backend of the final project",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HunterPsycho100/node-express-books-backend.git"
+  },
+  "author": "Hunter Hanay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HunterPsycho100/node-express-books-backend/issues"
+  },
+  "homepage": "https://github.com/HunterPsycho100/node-express-books-backend#readme"
 }
