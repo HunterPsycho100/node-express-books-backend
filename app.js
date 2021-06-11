@@ -1,10 +1,13 @@
+//for environ vars
+require('dotenv').config();
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./routes/books');
+var booksRouter = require('./routes/books');
 //var usersRouter = require('./routes/users');
 
 var db = require('morgan');
@@ -21,8 +24,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/api/books', booksRouter); //Do we have to have both
+//app.use('/users', usersRouter);
+//app.use('./routes/books');
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

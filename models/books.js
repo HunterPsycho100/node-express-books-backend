@@ -13,4 +13,4 @@ let BookSchema = new Schema({
     price: Number
 });
 
-module.exports = mongoose.model('Student', StudentSchema);
+module.exports = mongoose.model('Book', BookSchema);
