@@ -4,7 +4,6 @@ let Schema = mongoose.Schema;
 //let AuthorSchema = require('./author')
 
 let BookSchema = new Schema({
-    id: ObjectID,
     title: String,
     description: String,
     year: Number,
