@@ -20,7 +20,6 @@
   },
   "description": "backend of the final project",
   "main": "app.js",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HunterPsycho100/node-express-books-backend.git"
