@@ -7,10 +7,11 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var booksRouter = require('./routes/books');
-//var usersRouter = require('./routes/users');
+// for db
+var db = require('./database');
 
-var database = require("./database");
+
+var booksRouter = require('./routes/books');
 
 var app = express();
 
@@ -25,8 +26,6 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/api/books', booksRouter); //Do we have to have both
-//app.use('/users', usersRouter);
-//app.use('./routes/books');
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
