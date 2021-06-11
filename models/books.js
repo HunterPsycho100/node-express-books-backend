@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 let Schema = mongoose.Schema;
-let AuthorSchema = require('./author')
+//let AuthorSchema = require('./author')
 
 let BookSchema = new Schema({
     id: ObjectID,
@@ -9,7 +9,7 @@ let BookSchema = new Schema({
     description: String,
     year: Number,
     hardcover: Boolean,
-    author: AuthorSchema,
+    author: String,
     price: Number
 });
 
