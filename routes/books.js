@@ -1,6 +1,6 @@
 let express = require('express');
 let router = express.Router();
-let BookSchema = require('../models/books');
+let BookSchema = require('../models/books.js');
 
 function HandleError(response, reason, message, code){
     console.log('ERROR: ' + reason);
@@ -18,7 +18,7 @@ router.post('/', (request, response, next) =>{
             year: bookJSON.year || 2021,
             author: bookJSON.author,
             hardcover: bookJSON.hardcover || true,
-            price : bookJSON.price || 0
+            price : bookJSON.price
         });
         books.save( (error) => {
             if (error){
