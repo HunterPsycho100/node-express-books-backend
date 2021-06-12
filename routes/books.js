@@ -15,7 +15,7 @@ router.post('/', (request, response, next) =>{
         let books = new BookSchema({
             title: bookJSON.title, // firstName: request.body.firstName
             description: bookJSON.description || 'no description',
-            year: bookJSON.year || 2021,
+            year: bookJSON.year,
             author: bookJSON.author,
             hardcover: bookJSON.hardcover || true,
             price : bookJSON.price
@@ -35,7 +35,7 @@ router.get('/', (request, response, next)=>{
     let title = request.query['title'];
     if (title){
         BookSchema
-            .find({"title": title})
+            .find({"Title": title})
             .exec( (error, books) =>{
                 if (error){
                     response.send({"error": error});
