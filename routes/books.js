@@ -16,7 +16,7 @@ router.post('/', (request, response, next) =>{
             title: bookJSON.title, // firstName: request.body.firstName
             description: bookJSON.description || 'no description',
             year: bookJSON.year || 2021,
-            author: bookJSON.author || 'anonymous',
+            author: bookJSON.author,
             hardcover: bookJSON.hardcover || true,
             price : bookJSON.price || 0
         });

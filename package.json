@@ -29,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/HunterPsycho100/node-express-books-backend/issues"
   },
-  "homepage": "https://github.com/HunterPsycho100/node-express-books-backend#readme"
+  "homepage": "https://github.com/HunterPsycho100/node-express-books-backend#readme",
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
 }
