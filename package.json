@@ -3,14 +3,16 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "echo \"No Test set up\" && exit 1"
   },
   "engines": {
-    "node": "12.x"
+    "node": "16.x"
   },
   "main": ".bin/www",
   "dependencies": {
     "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
     "express": "^4.0.0",
     "http-errors": "~1.6.3",
@@ -29,8 +31,5 @@
   "bugs": {
     "url": "https://github.com/HunterPsycho100/node-express-books-backend/issues"
   },
-  "homepage": "https://github.com/HunterPsycho100/node-express-books-backend#readme",
-  "devDependencies": {
-    "cors": "^2.8.5"
-  }
+  "homepage": "https://github.com/HunterPsycho100/node-express-books-backend#readme"
 }
