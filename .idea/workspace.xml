@@ -10,8 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d557219a-dd18-4e73-96b3-11f58996573b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +50,6 @@
       <recent name="C:\Users\jjhan\Documents\GitHub\node-express-books-backend\node_modules" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,7 +60,8 @@
       <updated>1623285289958</updated>
       <workItem from="1623285291098" duration="1880000" />
       <workItem from="1623288582282" duration="2180000" />
-      <workItem from="1623362999792" duration="34290000" />
+      <workItem from="1623362999792" duration="36371000" />
+      <workItem from="1623643094150" duration="1270000" />
     </task>
     <servers />
   </component>
@@ -84,10 +77,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623434208869" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1623387685622">
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1623564083545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623387685622" />
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623564083545" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1623387249587">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
